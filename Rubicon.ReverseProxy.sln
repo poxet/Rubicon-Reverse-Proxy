@@ -1,0 +1,176 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon.ReverseProxy.TcpTestServer", "Rubicon.ReverseProxy.TcpTestServer\Rubicon.ReverseProxy.TcpTestServer.csproj", "{E2DD3FB0-7421-4C65-AC20-1ED1C23C6A9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon.ReverseProxy.TcpTestClient", "Rubicon.ReverseProxy.TcpTestClient\Rubicon.ReverseProxy.TcpTestClient.csproj", "{DA02014C-E296-48AA-8E59-02B9EE2A0FB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{B7E55B9A-1AE9-4252-96ED-464F476576A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon.ReverseProxy.TestConsole", "Rubicon.ReverseProxy.TestConsole\Rubicon.ReverseProxy.TestConsole.csproj", "{AF20C40C-6A87-457B-85A7-A2E4251EC715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon.ReverseProxy.Business", "Rubicon.ReverseProxy.Business\Rubicon.ReverseProxy.Business.csproj", "{02B14FB6-EF3D-4FA6-A906-55D4BE01A429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon.ReverseProxy.Repository", "Rubicon.ReverseProxy.Repository\Rubicon.ReverseProxy.Repository.csproj", "{02838F50-6B26-4753-B903-F185D550ECCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98C7837B-4D76-458F-B62B-D42250A3CC2B}"
+	ProjectSection(SolutionItems) = preProject
+		2do.txt = 2do.txt
+		Local.testsettings = Local.testsettings
+		Rubicon.ReverseProxy.vsmdi = Rubicon.ReverseProxy.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon.ReverseProxy.Service", "Rubicon.ReverseProxy.Service\Rubicon.ReverseProxy.Service.csproj", "{DC88E9E7-4B62-4125-B195-C3E25273AE24}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Rubicon.ReverseProxy.Setup", "Rubicon.ReverseProxy.Setup\Rubicon.ReverseProxy.Setup.vdproj", "{77A5FDB4-3AE3-4B15-BF17-88B17E91EBB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{0CC3C54E-69D4-49AD-802C-AA6129DD5B04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{5CA56A07-1F1C-4545-AB38-71EBB8339CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon.ReverseProxy.Business.Tests", "Rubicon.ReverseProxy.Business.Tests\Rubicon.ReverseProxy.Business.Tests.csproj", "{E8885E69-0BF1-4B13-8222-D7718F4E68D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_External", "_External", "{BDD455C1-088F-47C0-BC36-3A13DCF9C135}"
+	ProjectSection(SolutionItems) = preProject
+		_External\Moq.dll = _External\Moq.dll
+		_External\Moq.pdb = _External\Moq.pdb
+		_External\Moq.xml = _External\Moq.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://5.196.0.166:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Rubicon.ReverseProxy.Business\\Rubicon.ReverseProxy.Business.csproj
+		SccProjectName1 = Rubicon.ReverseProxy.Business
+		SccLocalPath1 = Rubicon.ReverseProxy.Business
+		SccProjectUniqueName2 = Rubicon.ReverseProxy.Repository\\Rubicon.ReverseProxy.Repository.csproj
+		SccProjectName2 = Rubicon.ReverseProxy.Repository
+		SccLocalPath2 = Rubicon.ReverseProxy.Repository
+		SccProjectUniqueName3 = Rubicon.ReverseProxy.Service\\Rubicon.ReverseProxy.Service.csproj
+		SccProjectName3 = Rubicon.ReverseProxy.Service
+		SccLocalPath3 = Rubicon.ReverseProxy.Service
+		SccProjectUniqueName4 = Rubicon.ReverseProxy.Setup\\Rubicon.ReverseProxy.Setup.vdproj
+		SccProjectName4 = Rubicon.ReverseProxy.Setup
+		SccLocalPath4 = Rubicon.ReverseProxy.Setup
+		SccProjectUniqueName5 = Rubicon.ReverseProxy.TcpTestClient\\Rubicon.ReverseProxy.TcpTestClient.csproj
+		SccProjectTopLevelParentUniqueName5 = Rubicon.ReverseProxy.sln
+		SccProjectName5 = Rubicon.ReverseProxy.TcpTestClient
+		SccLocalPath5 = Rubicon.ReverseProxy.TcpTestClient
+		SccProjectUniqueName6 = Rubicon.ReverseProxy.TcpTestServer\\Rubicon.ReverseProxy.TcpTestServer.csproj
+		SccProjectTopLevelParentUniqueName6 = Rubicon.ReverseProxy.sln
+		SccProjectName6 = Rubicon.ReverseProxy.TcpTestServer
+		SccLocalPath6 = Rubicon.ReverseProxy.TcpTestServer
+		SccProjectUniqueName7 = Rubicon.ReverseProxy.TestConsole\\Rubicon.ReverseProxy.TestConsole.csproj
+		SccProjectTopLevelParentUniqueName7 = Rubicon.ReverseProxy.sln
+		SccProjectName7 = Rubicon.ReverseProxy.TestConsole
+		SccLocalPath7 = Rubicon.ReverseProxy.TestConsole
+		SccProjectUniqueName8 = Rubicon.ReverseProxy.Business.Tests\\Rubicon.ReverseProxy.Business.Tests.csproj
+		SccProjectTopLevelParentUniqueName8 = Rubicon.ReverseProxy.sln
+		SccProjectName8 = Rubicon.ReverseProxy.Business.Tests
+		SccLocalPath8 = Rubicon.ReverseProxy.Business.Tests
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Rubicon.ReverseProxy.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2DD3FB0-7421-4C65-AC20-1ED1C23C6A9E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E2DD3FB0-7421-4C65-AC20-1ED1C23C6A9E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{E2DD3FB0-7421-4C65-AC20-1ED1C23C6A9E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{E2DD3FB0-7421-4C65-AC20-1ED1C23C6A9E}.Debug|x86.ActiveCfg = Debug|x86
+		{E2DD3FB0-7421-4C65-AC20-1ED1C23C6A9E}.Debug|x86.Build.0 = Debug|x86
+		{E2DD3FB0-7421-4C65-AC20-1ED1C23C6A9E}.Release|Any CPU.ActiveCfg = Release|x86
+		{E2DD3FB0-7421-4C65-AC20-1ED1C23C6A9E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E2DD3FB0-7421-4C65-AC20-1ED1C23C6A9E}.Release|Mixed Platforms.Build.0 = Release|x86
+		{E2DD3FB0-7421-4C65-AC20-1ED1C23C6A9E}.Release|x86.ActiveCfg = Release|x86
+		{E2DD3FB0-7421-4C65-AC20-1ED1C23C6A9E}.Release|x86.Build.0 = Release|x86
+		{DA02014C-E296-48AA-8E59-02B9EE2A0FB2}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DA02014C-E296-48AA-8E59-02B9EE2A0FB2}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DA02014C-E296-48AA-8E59-02B9EE2A0FB2}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{DA02014C-E296-48AA-8E59-02B9EE2A0FB2}.Debug|x86.ActiveCfg = Debug|x86
+		{DA02014C-E296-48AA-8E59-02B9EE2A0FB2}.Debug|x86.Build.0 = Debug|x86
+		{DA02014C-E296-48AA-8E59-02B9EE2A0FB2}.Release|Any CPU.ActiveCfg = Release|x86
+		{DA02014C-E296-48AA-8E59-02B9EE2A0FB2}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DA02014C-E296-48AA-8E59-02B9EE2A0FB2}.Release|Mixed Platforms.Build.0 = Release|x86
+		{DA02014C-E296-48AA-8E59-02B9EE2A0FB2}.Release|x86.ActiveCfg = Release|x86
+		{DA02014C-E296-48AA-8E59-02B9EE2A0FB2}.Release|x86.Build.0 = Release|x86
+		{AF20C40C-6A87-457B-85A7-A2E4251EC715}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{AF20C40C-6A87-457B-85A7-A2E4251EC715}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{AF20C40C-6A87-457B-85A7-A2E4251EC715}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{AF20C40C-6A87-457B-85A7-A2E4251EC715}.Debug|x86.ActiveCfg = Debug|x86
+		{AF20C40C-6A87-457B-85A7-A2E4251EC715}.Debug|x86.Build.0 = Debug|x86
+		{AF20C40C-6A87-457B-85A7-A2E4251EC715}.Release|Any CPU.ActiveCfg = Release|x86
+		{AF20C40C-6A87-457B-85A7-A2E4251EC715}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{AF20C40C-6A87-457B-85A7-A2E4251EC715}.Release|Mixed Platforms.Build.0 = Release|x86
+		{AF20C40C-6A87-457B-85A7-A2E4251EC715}.Release|x86.ActiveCfg = Release|x86
+		{AF20C40C-6A87-457B-85A7-A2E4251EC715}.Release|x86.Build.0 = Release|x86
+		{02B14FB6-EF3D-4FA6-A906-55D4BE01A429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B14FB6-EF3D-4FA6-A906-55D4BE01A429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B14FB6-EF3D-4FA6-A906-55D4BE01A429}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{02B14FB6-EF3D-4FA6-A906-55D4BE01A429}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{02B14FB6-EF3D-4FA6-A906-55D4BE01A429}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{02B14FB6-EF3D-4FA6-A906-55D4BE01A429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B14FB6-EF3D-4FA6-A906-55D4BE01A429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B14FB6-EF3D-4FA6-A906-55D4BE01A429}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{02B14FB6-EF3D-4FA6-A906-55D4BE01A429}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{02B14FB6-EF3D-4FA6-A906-55D4BE01A429}.Release|x86.ActiveCfg = Release|Any CPU
+		{02838F50-6B26-4753-B903-F185D550ECCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02838F50-6B26-4753-B903-F185D550ECCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02838F50-6B26-4753-B903-F185D550ECCB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{02838F50-6B26-4753-B903-F185D550ECCB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{02838F50-6B26-4753-B903-F185D550ECCB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{02838F50-6B26-4753-B903-F185D550ECCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02838F50-6B26-4753-B903-F185D550ECCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02838F50-6B26-4753-B903-F185D550ECCB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{02838F50-6B26-4753-B903-F185D550ECCB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{02838F50-6B26-4753-B903-F185D550ECCB}.Release|x86.ActiveCfg = Release|Any CPU
+		{DC88E9E7-4B62-4125-B195-C3E25273AE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC88E9E7-4B62-4125-B195-C3E25273AE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC88E9E7-4B62-4125-B195-C3E25273AE24}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DC88E9E7-4B62-4125-B195-C3E25273AE24}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DC88E9E7-4B62-4125-B195-C3E25273AE24}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC88E9E7-4B62-4125-B195-C3E25273AE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC88E9E7-4B62-4125-B195-C3E25273AE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC88E9E7-4B62-4125-B195-C3E25273AE24}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DC88E9E7-4B62-4125-B195-C3E25273AE24}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DC88E9E7-4B62-4125-B195-C3E25273AE24}.Release|x86.ActiveCfg = Release|Any CPU
+		{77A5FDB4-3AE3-4B15-BF17-88B17E91EBB5}.Debug|Any CPU.ActiveCfg = Debug
+		{77A5FDB4-3AE3-4B15-BF17-88B17E91EBB5}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{77A5FDB4-3AE3-4B15-BF17-88B17E91EBB5}.Debug|x86.ActiveCfg = Debug
+		{77A5FDB4-3AE3-4B15-BF17-88B17E91EBB5}.Release|Any CPU.ActiveCfg = Release
+		{77A5FDB4-3AE3-4B15-BF17-88B17E91EBB5}.Release|Mixed Platforms.ActiveCfg = Release
+		{77A5FDB4-3AE3-4B15-BF17-88B17E91EBB5}.Release|x86.ActiveCfg = Release
+		{E8885E69-0BF1-4B13-8222-D7718F4E68D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8885E69-0BF1-4B13-8222-D7718F4E68D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8885E69-0BF1-4B13-8222-D7718F4E68D0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E8885E69-0BF1-4B13-8222-D7718F4E68D0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E8885E69-0BF1-4B13-8222-D7718F4E68D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E8885E69-0BF1-4B13-8222-D7718F4E68D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8885E69-0BF1-4B13-8222-D7718F4E68D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8885E69-0BF1-4B13-8222-D7718F4E68D0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E8885E69-0BF1-4B13-8222-D7718F4E68D0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E8885E69-0BF1-4B13-8222-D7718F4E68D0}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0CC3C54E-69D4-49AD-802C-AA6129DD5B04} = {B7E55B9A-1AE9-4252-96ED-464F476576A2}
+		{5CA56A07-1F1C-4545-AB38-71EBB8339CFA} = {B7E55B9A-1AE9-4252-96ED-464F476576A2}
+		{DA02014C-E296-48AA-8E59-02B9EE2A0FB2} = {0CC3C54E-69D4-49AD-802C-AA6129DD5B04}
+		{AF20C40C-6A87-457B-85A7-A2E4251EC715} = {0CC3C54E-69D4-49AD-802C-AA6129DD5B04}
+		{E2DD3FB0-7421-4C65-AC20-1ED1C23C6A9E} = {0CC3C54E-69D4-49AD-802C-AA6129DD5B04}
+		{E8885E69-0BF1-4B13-8222-D7718F4E68D0} = {5CA56A07-1F1C-4545-AB38-71EBB8339CFA}
+	EndGlobalSection
+EndGlobal

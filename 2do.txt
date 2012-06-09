@@ -1,0 +1,16 @@
+> Se till att testservern kan returnera HTML data, så att det går att testa med några olika host-adresser från en webbbrowser.
+	> Kör två instanser av servern som lyssnar på varsin port.
+	> Konfigurera två host-headrar som går mot localhost (i host filen)
+	> Proxyn skall lyssna på en extern port och skicka vidare till ena eller andra servern beroende på host-header
+> Bygg en windows service, så att hostning kan ske där, istället för i en console app
+> Skapa en MSI installation
+	> Se till att installationen startar servicen
+	> Se till att installationen kan uppdatera (stoppa befintlig service och starta den nya)
+> Skrive ett dokument som beskriver hur tjänsten fungerar
+	> Beskriv hur tjänsten kan testas
+> Installera en alfa på rubicon-servern
+
+
+Future development:
+> Gör det enklare att mata in nya regler via telnet. (Backspace fungerar inte)
+> Skriv tester för några kritiska delar
